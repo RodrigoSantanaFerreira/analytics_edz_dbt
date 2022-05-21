@@ -14,7 +14,7 @@ renamed as (
         DATEID AS ID_DATE,
         QTYSOLD AS QUANTIDADE_VENDIDA,
         PRICEPAID AS VALOR_PAGO,
-        COMMISSION AS COMISSÃO,
+        COMMISSION AS COMISSAO,
         TO_CHAR(saletime, 'dd/mm/yyyy HH24:MI:SS') AS DATA_HORA_VENDA,
         TO_CHAR(saletime, 'HH24:MI:SS') AS HORA_VENDA,
         cast(saletime as date) AS DATA_VENDA
